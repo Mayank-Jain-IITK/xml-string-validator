@@ -9,7 +9,7 @@ public class Main {
         XmlValidatorService xmlValidatorService = new XmlValidatorService();
 
         // Sample XML string
-        String xmlString = "<abc><def>validString</def></abc>";
+        String xmlString = "<abc><def>ValidString</def></abc>";
         System.out.println("Given String: " + xmlString + "\nIs it a valid XML string: " + xmlValidatorService.DetermineXml(xmlString));
 
     }
